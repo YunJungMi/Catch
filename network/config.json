@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "윤정미"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n데이터 선정 기준\n캐릭터: 한국콘텐츠진흥원 2020 캐릭터 이용자 실태조사\n산업: 한국표준산업분류\n\u003c/p\u003e\n\n\u003cp\u003e\n데이터 수집 방법\n네이버 기사를 활용하여 상위 50페이지에 있는 기사를 크롤링하여 데이터를 수집\n(1 페이지 당, 10개의 기사 / 캐릭터 당, 총 500개의 기사를 수집)\n\u003c/p\u003e\n\n\u003cp\u003e\n데이터 수정 기준\n단순 홍보를 위한 협업 기사는 제외\n자회사의 IP를 활용한 캐릭터 제품은 제외\n캐릭터 간 협업이나 같은 기업에 소속되어 있는 캐릭터의 협업은 제외\n\u003c/p\u003e\n​\n\n데이터 수집 방법은 모두,\n\n캐릭터 이름 + 콜라보레이션을 검색했을 때 나오는 기사를 사용하였습니다.",
+    "intro": "산업과 기업의 엣지를 통합한 게피 시각화 자료입니다.",
+    "title": "산업과 기업의 엣지를 통합한 게피 시각화"
+  },
+  "legend": {
+    "edgeLabel": "분야별 분류",
+    "colorLabel": "분야별 분류",
+    "nodeLabel": "브랜드"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
